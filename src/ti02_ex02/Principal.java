@@ -14,16 +14,21 @@ public class Principal {
 
         while (opcao != 5) {
             // Exibe o menu
+        	System.out.println("=========================");
             System.out.println("Escolha uma opção:");
+            System.out.println("=========================");
             System.out.println("1. Listar produtos");
             System.out.println("2. Inserir produto");
             System.out.println("3. Atualizar produto");
             System.out.println("4. Excluir produto");
             System.out.println("5. Sair");
+            System.out.println("=========================");
+            System.out.print("Sua opção: ");
 
             // Lê a opção do usuário
             opcao = scanner.nextInt();
             scanner.nextLine(); // Limpa o buffer do scanner
+            System.out.println("=========================");
 
             switch (opcao) {
                 case 1:
